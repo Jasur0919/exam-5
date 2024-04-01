@@ -837,6 +837,17 @@ body {
         // height: 480px;
     }
 
+    .contact_control {
+        width: 320px;
+        height: 450px;
+        img {
+            width: 320px !important;
+            height: 200px;
+        }
+    }
+
+    
+
     
 }
 
@@ -874,8 +885,10 @@ body {
 
     .contact_box {
         margin-top: 92px;
+        justify-content: center;
         display: flex;
-        gap: 10px;
+        flex-wrap: wrap;
+        gap: 50px;
         margin-top: 300px;
 
     }
@@ -916,6 +929,11 @@ body {
         border-radius: 4px 0px 0px 0px;
         background: #F5F5F5;
 
+    }
+
+    .contact_control img {
+        width: 400px;
+        height: 300px;
     }
 
     

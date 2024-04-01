@@ -653,6 +653,14 @@ footer {
   .main_box img {
     width: 300px !important;
   }
+  .contact_control {
+    width: 320px;
+    height: 450px;
+  }
+  .contact_control img {
+    width: 320px !important;
+    height: 200px;
+  }
 }
 * {
   margin: 0;
@@ -669,8 +677,10 @@ footer {
 
 body .contact_box {
   margin-top: 92px;
+  justify-content: center;
   display: flex;
-  gap: 10px;
+  flex-wrap: wrap;
+  gap: 50px;
   margin-top: 300px;
 }
 body .contact_control_stil {
@@ -701,6 +711,10 @@ body .contact_control {
   gap: 0px;
   border-radius: 4px 0px 0px 0px;
   background: #F5F5F5;
+}
+body .contact_control img {
+  width: 400px;
+  height: 300px;
 }
 body .contact_information h1 {
   font-size: 24px;
