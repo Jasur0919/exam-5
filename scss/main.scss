@@ -86,7 +86,7 @@ body {
         align-items: center;
         // justify-content: space-between;
         // position: absolute;
-        z-index: -1;
+    
         right: 0;
         left: 0;
     }
@@ -293,6 +293,11 @@ body {
             width: 115px;
             height: 180px;
             margin-left: 50px;
+        }
+        .product_img_cat:hover {
+            width: 140px;
+            height: 200px;
+            transition: .3s linear;
         }
 
     }
@@ -677,7 +682,7 @@ body {
         display: block !important;
     }
     .header-bot-page {
-        transition: .5s;
+        transition: .2s;
         margin-top: -400px;
         z-index: -1;
         display: block !important;
@@ -695,7 +700,7 @@ body {
         // top: -1000px;
         left: 0;
         right: 0;
-        transition:  .10s linear !important;
+        transition:  .3s linear !important;
         width: 100%;
 
        
@@ -732,28 +737,23 @@ body {
         order: 2  !important;
         margin-right: 200px;
     }
-   
+    .phone-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
     
 
 }
 
-
-
 @media(max-width: 700px){
 
     .phone-iphone img  {
         max-width: 400px;
-        // margin-right: 100px;
+        margin-right: 100px;
         // margin-right: 150px;
 
-    }
-
-    .phone-box {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        
     }
     
     .categor_img img {
@@ -766,15 +766,23 @@ body {
         width: 200px;
         height: 150px !important;
     }
+
+    .main_box img {
+        width: 500px !important;
+        // height: 480px;
+    }
+
+    .main_box {
+        // margin-top: -10px !important;
+    }
 }
 
 
 @media(max-width: 600px){
     
     .phone-iphone img  {
-        max-width: 200px;
-        height: 150px;
-        // margin-right: 150px;
+        max-width: 300px;
+        margin-right: 150px;
 
     }
 
@@ -808,6 +816,11 @@ body {
         height: 200px;
         margin-right: 90px;
     }
+
+    .main_box img {
+        width: 400px !important;
+        // height: 480px;
+    }
 }
 
 @media(max-width: 500px){
@@ -818,12 +831,265 @@ body {
         padding:  15px;
         // margin-left: 30px;
     }
+
+    .main_box img {
+        width: 300px !important;
+        // height: 480px;
+    }
+
+    
 }
 
 
 
 
+/////////  C O N T A C T    S C S S
+
+
+// @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+   max-width: 1210px;
+   margin: 0 auto;
+   padding: 0 20px;
+}
+
+
+body {
 
 
 
+
+
+    // MAIN 
+
+
+
+    .contact_box {
+        margin-top: 92px;
+        display: flex;
+        gap: 10px;
+        margin-top: 300px;
+
+    }
+
+    .contact_control_stil {
+        display: flex;
+        flex-direction: column;
+        // align-items: center;
+        justify-content: center;
+        gap: 16px;
+        
+    }
+
+    .contact_control_stil_img img {
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .contact_control_stil_img{
+        width: 170px;
+        height: 138px;
+        top: 323px;
+        padding: 12px 25px 12px 24px;
+        gap: 0px;
+        border-radius: 4px 0px 0px 0px;
+        background: #F5F5F5;
+
+
+    }
+
+    .contact_control {
+        width: 500px;
+        height: 600px;
+        top: 323px;
+        left: 335px;
+        padding: 154px 27px 131px 27px;
+        gap: 0px;
+        border-radius: 4px 0px 0px 0px;
+        background: #F5F5F5;
+
+    }
+
+    
+
+    .contact_information h1 {
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+    }
+
+    .star {
+        display: flex;
+        align-items: center;
+        margin: 16px 0;
+        gap: 10px;
+        span{
+            color: gray;
+        }
+        p{
+            color: #00FF66 ;
+        }
+    }
+
+    .contact_h2 {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+
+
+    }
+
+    .contact_p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        max-width: 373px;
+        margin: 24px 0;
+    }
+
+    .lll {
+        max-width: 400px;
+        border: 1px solid gray;
+
+    }
+
+    .contact_color {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        margin: 24px 0;
+    }
+
+    .size {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+
+        h3 {
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 20px;
+            letter-spacing: 0.03em;
+
+
+        }
+
+        span {
+            display: flex;
+            gap: 16px;
+        }
+        span p{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 32px;
+            height: 32px;
+            padding: 6px 7px 6px 7px;
+            gap: 0px;
+            border-radius: 4px;
+            border: 2px solid gray;
+
+
+
+
+
+        }
+        span p:hover {
+            background: #DB4444;
+            color: white;
+            border: 2px solid #DB4444;
+        }
+    }
+
+}
+
+
+
+///  A  B O U T   //////////////////////////////////
+
+
+  .main_box {
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 95px;
+    flex-wrap: wrap;
+    // gap: 100px;
+  }
+
+  .main_box img {
+    width: 700px;
+    height: 680px;
+  }
+
+  .main_input {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main_pasword p{
+    margin: 24px 0 48px 0;
+  }
+
+  .main_input input{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+  }
+
+  .main_input_e {
+    margin: 40px 0;
+  }
+
+  .main_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #DB4444;
+    gap: 87px;
+    text-align: center;
+}
+
+  .main_button button  {
+    width:  143px;
+    height: 56px;
+    padding: 16px 48px 16px 48px;
+    gap: 10px;
+    border-radius: 4px;
+    background: #DB4444;
+    border: none;
+    outline: none;
+    color: white;
+
+  }
+ 
+
+//  A D M I N   ////////////////////////////
+
+
+.admin {
+    padding-top: 200px !important;
+
+}
+
+.hero {
+    span {
+        color: gray;
+        p {
+            color: black;
+        }
+    }
+
+}
     
